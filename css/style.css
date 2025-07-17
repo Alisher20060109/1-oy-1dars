@@ -1,0 +1,223 @@
+@import url(./base/main.css);
+@import url(./layout/about.css);
+@import url(./layout/footer.css);
+@import url(./layout/header.css);
+@import url(./layout/hero.css);
+@import url(./moduls/button.css);
+@import url(./state/container.css);
+@import url(./theme/dark.css);
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.container{
+    width: 1338px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.Britlex-hedarers{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 300px;
+}
+.Home-learn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Home{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.Home-learn__tetl{
+    font-size: 64px;
+}
+.Home-learn__text{
+    font-size: 24px;
+    line-height: 100%;
+    color: #8F95A5;
+    padding-bottom: 61px;
+    padding-top: 40px;
+}
+.Home-learn__btn{
+    width: 438px;
+    height: 118px;
+    border-radius: 15px;
+    color: white;
+    background-color: #263238;
+    font-size: 36px;
+}
+.skills-cardlar__speaking{
+    background-color: #F5F5F5;
+    padding-bottom: 40px;
+    width: 435px;
+}
+.skills-speaking__tetl{
+    font-size: 30px;
+    color: #263238;
+    padding-bottom: 5px;
+}
+.skills-speaking__text{
+    font-size: 16px;
+    color: #8F95A5;
+    padding-bottom: 36px;
+}
+.skills-speaking__btn{
+    background-color: #263238;
+    color: white;
+    font-size: 18px;
+    width: 230px;
+    height: 60px;
+    border-radius: 5px;
+}
+.skills-cardlar{
+   padding-top: 90px;
+   padding-bottom: 30px;
+    background-size: #1e1d1d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative  ;
+}
+.skills-cardlar__bloklar{
+    display: flex;
+    width: 890px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -240px;
+}
+.skills-bloklar__Writing{
+    width: 435px;
+    background-color: #F5F5F5;
+
+}
+.skills-bloklar__Writing img{
+    margin-left: 140px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    color: #8F95A5;
+    font-size: 18px;
+}
+.skills-Writing__btn{
+    width: 118px;
+    height: 60px;
+    color: white;
+    background-color: #263238;
+}
+.skills-bloklar__reading{
+    background-color: #F5F5F5;
+}
+.skills-reading__btn{
+    width: 118px;
+    height: 60px;
+    color: white;
+    background-color: #263238;
+    border-radius: 5px;
+    
+
+}
+.skills-bloklar__reading{
+    width: 435px;
+    height: 532px;
+   
+    
+}
+.skills-titl{
+    font-size: 48px;
+    margin-left: 640px;
+    padding-top: 100px;
+    
+}
+.skills-bloklar__Listening{
+   position: absolute;
+   left: 450px;
+   top: 610px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 845px;
+
+}
+.skills-bloklar__btn{
+    width: 218px;
+    height: 60px;
+    background-color: #263238;
+    color: white;
+    border-radius: 5px;
+}
+.About-blok__cartlar{
+    display: flex;
+    width: 635px;
+    justify-content: space-between;
+    align-items: center;
+}
+.About-blok__cartlar h1{
+    font-size: 48px;
+
+}
+.About-blok{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 229px;
+}
+.Pricing-card__blok{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #EEEEEE;
+    width: 240px;
+    height: 45px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.Pricing-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 290px;
+}
+.Contact-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Contact-imp__btn{
+    width: 264px;
+    height: 80px;
+    background-color:#263238 ;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+.Contact-imp__inp{
+    width: 450px;
+    height: 80px;
+    border-radius: 5px;
+}
+.Contact-card{
+    padding-bottom: 220px;
+}
+.future-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.Britlex-hedarers__btn{
+    width: 220px;
+    height: 70px;
+    background-color: white;
+}
+  
